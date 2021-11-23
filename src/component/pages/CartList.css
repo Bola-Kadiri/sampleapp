@@ -1,0 +1,21 @@
+.Cart-item {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .Cart-item div {
+    width: 25%;
+  }
+  
+  .Cart-item button {
+    width: 20px;
+    height: 20px;
+    margin: 1%;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .Cart-item button:disabled {
+    background-color: rgba(255, 255, 255, 0.781);
+  }
